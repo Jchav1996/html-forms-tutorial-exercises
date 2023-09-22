@@ -1,0 +1,51 @@
+/* {
+	min-height: 10px;
+	border: 1px dashed red;
+}*/
+body {
+	background-color: rgb(22, 22, 116);
+	font-family: "Inter", sans-serif;
+	font-family: "Libre Baskerville", serif;
+	font-family: "Mooli", sans-serif;
+	font-family: "Mulish", sans-serif;
+	font-family: "Pridi", serif;
+	font-family: "Roboto", sans-serif;
+	margin: auto;
+	width: 625px;
+}
+
+input {
+	display: flex;
+	background-color: rgb(10, 10, 68);
+	width: 290px;
+	padding: 10px;
+	margin-top: 7px;
+	border-radius: 5px;
+	border: none;
+}
+.login {
+	padding: 155px;
+}
+
+h1 {
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+button {
+	display: flex;
+	margin-top: 10px;
+	justify-content: center;
+	padding: 10px;
+	font-weight: bold;
+	background-color: rgb(89, 89, 236);
+	color: white;
+	width: 309px;
+	border-radius: 5px;
+	border: none;
+}
